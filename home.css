@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:900');
+
+h1{
+    
+    text-align: center;
+    margin: auto;
+    padding: 25%;
+    font-size: 55px;
+    font-family: 'Playfair Display SC', serif;
+   
+}
+
+
