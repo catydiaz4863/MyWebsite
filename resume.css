@@ -1,0 +1,71 @@
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #3d2b17;
+    opacity: 0.7;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+
+body, html{
+    
+    background-image: url(backimg.jpg); /*https://pixabay.com/en/home-office-workstation-office-336373/*/
+    width: auto;
+    height: auto;
+
+}
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #3d2b17;
+    opacity: 0.7;
+}
+
+ul{
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
